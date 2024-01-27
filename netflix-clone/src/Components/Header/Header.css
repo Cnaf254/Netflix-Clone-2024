@@ -1,0 +1,41 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20,20,20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: red; */
+
+}
+/* .nav__black{
+
+} */
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header_left ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.header_right ul{
+    width: 150%;
+    display: flex;
+    justify-content: space-round;
+
+    list-style: none;
+    cursor: pointer;
+}
