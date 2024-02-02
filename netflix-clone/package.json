@@ -1,5 +1,5 @@
 {
-  "home":"https://Cnaf254.github.io/Netflix-Clone-2024",
+  "home": "https://Cnaf254.github.io/Netflix-Clone-2024",
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -48,6 +47,7 @@
   },
   "devDependencies": {
     "eslint-plugin-react": "^7.33.2",
+    "gh-pages": "^6.1.1",
     "github-pages": "^3.0.2"
   }
 }
